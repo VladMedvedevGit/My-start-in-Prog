@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Raleway:wght@400;600;700&display=swap');
+
+*{
+    font-family: Raleway;
+}
+
+.wrapper {
+    width: 1917px;
+    padding: 44px 0px 38px 96px;
+}
+article {
+    width: 1770px;
+}
+section {
+    margin-top: 64px;
+}
+h1 {
+    font-size: 80px;    
+    font-weight: 700;
+    line-height: 96px;
+    margin: 96px 0;  
+}
+h3 {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 64px;
+    margin: 24px 0; 
+}
+p {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 24px 0;
+}
+.hiden {
+    opacity: .0;
+}
+.img_1 {
+    width: 277px; 
+    height: 247px;
+    margin-left: 69px;
+}
+iframe {
+    display: block;
+    margin: 130px 69px;
+}
