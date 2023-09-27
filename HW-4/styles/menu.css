@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+* {
+    box-sizing: border-box;
+}    
+body {
+    margin: 0;
+    background-color: #CCA5A5;
+    font-family: 'Inter', sans-serif; 
+}
+
+section {
+    border-radius: 20px;
+    background-color: #fff;
+    width: 360px;
+    margin: 75px auto;
+    padding-bottom: 80px;
+}
+
+.menu-button {
+    display: inline-block;
+    margin: 56px 302px 15px 28px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 600; 
+    margin: 5px 251px 18px 24px;
+}
+input {
+    width: 316px;
+    height: 44px;
+    color: #999999;
+    font-size: 12px;
+    font-weight: 400; 
+    background-color: #EFEFEF;
+    border-radius: 12px;
+    border: none;
+    padding: 15px 170px 14px 15px;
+    margin: 0px 20px 0px 24px;
+}
+.menu-block {
+    margin: 29px 66px 0px 24px;
+    width: 320px;
+    display: inline-block; 
+    padding: 0; 
+}
+.menu-item {
+    display: inline-block;
+    margin: 0px 20px 0px 0px;                                               
+}   
+h5 {
+   color: #C4C4C4;
+   font-size: 16px;
+   font-weight: 500; 
+   text-align: center;
+   /* width: 74px; */
+   margin: 0px;
+}
+.item-img{
+    display: inline-block;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    width: 74px;
+    height: 74px;
+    padding: 19px;
+    margin-bottom: 7px;  
+}
+.menu-item:hover h5{   
+    color: black;
+}
+.item-img:hover {
+     background-color: #EAE2B7;
+}
+
+h3 {
+    color: #003049;
+    font-size: 20px;
+    font-weight: 500;  
+    display: inline-block;
+    margin: 32px 0px 27px 24px;
+}
+
+.menu-proposition {
+    width: 316px;
+    height: 86px;
+    box-shadow: 0px 0px 4px #E5E5E5; 
+    border-radius: 10px;
+    margin: 0px 20px 12px 24px;
+    position: relative;
+}
+.burger-img {
+    display: inline-block;
+    width: 70px;
+    margin: 7px 0px 9px 16px;
+}
+.second {
+    margin: 15px 0px 4px 16px;
+}
+.last {
+     margin: 17px 8px 0px 8px;
+}
+.menu-description {
+    display: inline-block;
+    width: 150px;
+    position: absolute;
+    top: 8px;
+}
+.menu-description, h4, p{
+      margin: 7px 2px;
+}
+.menu-description h4{
+    color: #003049;
+    font-size: 16px; 
+    font-weight: 400;
+}
+.menu-description p{
+    color: #D62828;
+    font-size: 14px;
+    font-weight: 500; 
+}
