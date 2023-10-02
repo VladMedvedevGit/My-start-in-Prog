@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500;8..144,600&family=Roboto:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}  
+body {
+    margin: 0;
+    font-family: 'Roboto Flex', sans-serif;
+    background-color: #1C52DD8F;
+}
+
+.wrapper {
+    width: 1452px;
+    margin: 0 auto;
+}
+header {
+    padding-top: 62px;
+    margin-bottom: 63px;
+}
+.clear::before,
+.clear::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo {
+    position: relative;
+    float: left;
+}
+.logo-img {
+    display: inline-block;
+    width: 42px;
+    height: 43px;
+    padding: 11px 12px;
+    background: linear-gradient(90deg, #345AA4 0%, #3F009C 100%); 
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-top-left-radius: 3px; 
+    border-bottom-left-radius: 3px;   
+    margin-right: 10px; 
+}
+.logo-img a {
+    text-decoration: none;
+}
+.logo h2 {
+    display: inline-block;
+    color: #FAFAFA;
+    font-size: 48px;
+    font-weight: 600;
+    position: absolute;
+}
+.menu {
+    float: right;       
+}
+
+.menu ul, li{
+    display: inline-block;
+}
+
+.menu ul li:not(:last-child){
+    margin-right: 60px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;   
+}
+.nav-button {
+    display: inline-block;
+    width: 164;
+    height: 61;
+    padding: 17px 36px 16px;
+    margin-left: 39px;
+    background: linear-gradient(90deg, #4258AE 0%, #6B76D5 100%); 
+    border: none;
+    border-radius: 13px;
+    color: #E5E5E5;
+    font-size: 24px;
+    font-weight: 500; 
+}
+.main-img {    
+    float: right;
+}
+.main-content h1 {
+    display: inline-block;
+    width: 511px;
+    color: white;
+    font-size: 70px;
+    line-height: 80px; 
+    font-weight: 600;
+    margin: 147px 0 14px;
+}
+.main-content h3 {
+    color: #E5E5E5;
+    font-size: 36px;
+    font-weight: 500;
+}
+.join {
+    color: #E5E5E5;
+    font-size: 36px;
+    font-weight: 500;
+    width: 277px;
+    height: 85px;
+    background: linear-gradient(90deg, #345AA4 0%, rgba(63, 0, 156, 0.92) 100%); 
+    border: none;
+    border-radius: 13px;
+    margin-top: 57px;
+}
+.active:hover {
+    opacity: 0.7;
+}
