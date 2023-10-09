@@ -1,0 +1,224 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&family=Roboto+Flex:opsz,wght@8..144,500;8..144,600&family=Roboto:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&family=Roboto+Flex:opsz,wght@8..144,500;8..144,600&family=Roboto:wght@500&family=Young+Serif&display=swap');
+
+* {
+    box-sizing: border-box;
+}  
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    background-image: url("../img/Rectangle_1.png");
+    background-color: #0D1017;
+    min-height: 1117px;
+    background-size: contain;    
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.wrap {
+    width: 88%;
+    margin: 0 auto; 
+    min-height: 1117px;  
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    min-height: 238px;
+    padding-top: 42px;
+}
+.left-part {
+    display: flex;
+    justify-content: space-between;   
+    margin-top: 28px;
+}
+.right-part {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
+.profile {
+    padding-bottom: 40px;
+}
+.search {
+    margin-top: 15px;
+}
+.logo {
+    display: flex;  
+}
+.date {    
+    display: flex;    
+    border-left: 3px white solid;
+    height: 30px;   
+    padding-left: 24px; 
+    margin: 7px 0 0 16px;
+}
+.date p{
+    font-family: 'Young Serif', serif;
+    color: #C8C8C8;
+    font-size: 24px;
+    font-weight: 500; 
+}
+.content-wrap {
+    width: 56%;
+}
+.genre {
+    padding-bottom: 35px;
+}
+.genre a:not(last-of-type) {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-weight: 500; 
+}
+.genre a:nth-child(2) {
+    border-right: 3px white solid;  
+    border-left: 3px white solid;  
+    padding: 0 20px;
+    margin: 0 20px;
+}
+
+.content-wrap h1 {
+    color: white;
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: 3.52px; 
+    padding-bottom: 43px;
+}
+.aditional-info{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 24px;  
+}
+.description {
+    color: #A7A6A6;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.97px; 
+    width: 865px;
+    padding-bottom: 35px;  
+
+}
+.stars {
+    padding-bottom: 63px;
+}
+.stars i:not(last-child) {
+   margin-right: 10px;
+}
+
+.yellow {
+    color:#FFEA2B;
+}
+.white {
+    color: white;
+    background-color: black;
+}
+.clear::before,
+.clear::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.buttons {    
+    width: 63.5%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 54px;
+}
+.for-buttons {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 31.14px; 
+    width: 272px;
+    height: 64px;
+    border-radius: 10px;
+} 
+.stream {
+    background-color: #D40D1F;
+    border: none;
+    padding: 16px 37px 16px 15px;
+} 
+.stream img {
+   float: right;
+}
+.stream p {
+    display: inline-block;
+    margin-top: 2px;   
+}
+.all-episodes {
+    border: 3px solid white;
+    background-color: transparent;
+}
+.all-episodes:hover {
+    background-color: #2C4559;
+}
+.stream:hover {
+    background-color: #E50914;
+}
+.pop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 18px;
+}
+.pop h5 {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 31.79px;
+    letter-spacing: 2.97px; 
+}
+.circle {
+   display: inline-block;
+   width: 40px;
+   height: 40px;
+   border: 1px solid #A7A6A6;
+   color: #A7A6A6;
+   border-radius: 50%;
+   text-align: center;
+   padding: 10px 0;
+} 
+.chevrons {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+.circle:hover {
+    border: 2px solid white;   
+    color: white; 
+ } 
+ .films {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ }
+ .films img{
+    display: inline-block;
+ }
+ 
+ .mark {
+    width: 174px;
+    height: 66px;
+    background-color: #FFFFFF7D;
+    position: fixed;
+    right: 0px;
+    bottom: 103px;
+
+ }  
+ .red {
+    width: 33px;
+    height: 66px;
+    background-color:  #D40D1F;
+    float: left;
+ }
+
+ .mark p{
+    display: inline-block;
+    width: 50px;
+    height: 28;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33.97px; 
+    margin: 15px 0 0 26px;
+ }
