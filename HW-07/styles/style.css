@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&family=Roboto:wght@400;900&display=swap');
+* {
+    box-sizing: border-box;
+}  
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000; 
+   
+}
+.wrapper {
+    width: 87%;
+    min-height: 827px;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55px;
+    margin-bottom: 160px;
+}
+
+header a {
+    text-decoration: none;
+    position: relative;
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 1px;   
+}
+
+header a:hover::after {
+   display: block; 
+   position: absolute;
+   left: 42%;;
+   content: "";
+   margin: 0 auto;
+   width: 7px;
+   height: 7px;
+   border: 1px white solid;
+   background-color: #F2994A;
+   border-radius: 50%;
+  
+}
+.navigation {
+    width: 27%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.last-header-block {
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    gap: 31px;
+    align-items: center;
+} 
+.content {
+    width: 100%;
+    display: flex;
+    gap: 146px;
+    justify-content: space-between;
+}
+
+
+.main-content{
+    width: 100%;
+    padding-bottom: 9px;
+    position: relative;
+}
+.text-content {
+   width: 100%; 
+   border-right: 1px #333333 solid;
+   margin-bottom: 32px;
+}
+
+.text-content h5 {
+    display: inline-block;
+    color: #F2994A;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80%; /* 28.8px */
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.text-content h5::after {
+    content: "+";
+    color: #3F9AB7;
+    width: 11px;
+    height: 11px; 
+    font-weight: 700;
+    margin-left: 340px;
+}
+
+.text-content h1 {
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 78px */
+    letter-spacing: 1px; 
+    padding-bottom: 71px;
+}
+.yellow-line {
+    border: 1px white solid; 
+    width: 188px;
+    height: 8px;
+    border-radius: 4px;
+    background: #F2994A;
+    margin-bottom: 24px;
+}
+
+.text-content p {
+    display: inline-block;
+    width: 68%;
+    color: #4F4F4F;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 28.8px */
+    letter-spacing: 1px;
+}
+.video-link {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 21px;
+}
+.play-button {
+    width: 85px;
+    height: 85px; 
+    background-color: #3F9AB7;
+    border-radius: 50%;
+}
+.play-link h4 {
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 21.6px */
+    letter-spacing: 1px;
+}
+
+.play-button a {
+    display: block;
+    height: 100%;
+    border-radius: 50%;
+    padding: 29px 28px 28px 35px;;
+ }
+
+.play-button img {
+   display: block;
+   text-align: center; 
+}
+.play-button a:hover {
+    background-color:  #61afc9
+ }
+
+.soc-net-icons {
+    min-height: 110px;
+    width: 40px;
+    position: absolute;
+    bottom: 0px;
+    left: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.soc-net-icons a {
+    text-decoration: none;
+    color: #000;
+}
+
+.soc-net-icons i:hover {
+    padding: 15px 0 0 7px;
+    width: 34px;
+    height: 34px;
+    color: white;
+    border: 1px white solid;
+    border-radius: 50%;   
+    background-color: #F2994A;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    min-height: 118px;
+    background-color: #3F9AB7;
+    padding: 33px 0 30px 500px;
+}
+
+.client-avatars {
+    display: flex;
+    position: relative;
+}
+.client-avatars :nth-child(1){
+    z-index: index 1;
+}
+.client-avatars :nth-child(2){
+    z-index: index 2;
+    position: absolute;
+    left: 33px
+}
+.client-avatars :nth-child(3){
+    z-index: index 3;
+    position: absolute;
+    left: 66px
+}
+.client-avatars h4{
+    padding-left: 100px;
+    align-self: center;
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.client-avatars h4 span{
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
