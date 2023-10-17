@@ -57,7 +57,6 @@ header a:hover::after {
 .last-header-block {
     width: 12%;
     display: flex;
-    justify-content: space-between;
     gap: 31px;
     align-items: center;
 } 
@@ -65,7 +64,6 @@ header a:hover::after {
     width: 100%;
     display: flex;
     gap: 146px;
-    justify-content: space-between;
 }
 
 
@@ -133,7 +131,6 @@ header a:hover::after {
 .video-link {
     display: flex;
     width: 40%;
-    justify-content: space-between;
     align-items: center;
     gap: 21px;
 }
