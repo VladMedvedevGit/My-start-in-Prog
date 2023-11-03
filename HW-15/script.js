@@ -36,7 +36,7 @@ function sortFilmsYear(arr){
         arr.sort(function(a, b){
         return a.yearProduction - b.yearProduction;
         }); 
-        return console.log(arr);    
+    return console.log(arr);    
 };
 sortFilmsYear(filmsArrow);
 
@@ -50,7 +50,25 @@ for(let str of strings){
 }
 console.log(newStrings);
 
-// - Створіть масив рядків і використовуйте forEach, щоб вивести кожен рядок в консоль після перетворення його в нижній регістр.
-// const words = ["JavaScript", "HTML", "CSS"];
-// - Створіть масив чисел. Використовуйте filter, щоб відфільтрувати та залишити тільки парні числа. Потім використовуйте sort, щоб впорядкувати їх в зростаючому порядку.
-// const numbers = [5, 2, 8, 1, 6];
+// - Створіть масив рядків і використовуйте forEach, щоб вивести кожен рядок в консоль 
+// після перетворення його в нижній регістр.
+
+ const words = ["JavaScript", "HTML", "CSS"];
+
+ words.forEach(str => {
+    console.log(str.toLowerCase())
+ });
+
+// - Створіть масив чисел. Використовуйте filter, щоб відфільтрувати та залишити тільки парні числа. 
+// Потім використовуйте sort, щоб впорядкувати їх в зростаючому порядку.
+
+const numbers = [5, 2, 8, 1, 6];
+
+let newNumbers = numbers
+                        .filter(function(number){
+                            return number % 2 == 0;
+                        })
+                        .sort(function(a,b) {
+                            return a - b;
+                        })                        
+console.log(newNumbers);   
