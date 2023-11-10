@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&family=Poppins:wght@500;600;700;800&family=Young+Serif&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Poppins;
+    background-color: #F5C7B3;
+}
+
+header{
+    min-height: 4.5vh;
+    min-width: 100rem;
+    /* padding-top: 3.7%; */
+    background-color: white;
+    z-index: 99;
+}
+
+
+.logo-img {
+    padding-bottom: 30px;
+}
+
+.header-wrapper {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 2.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 36vw;
+    
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2.80px; 
+    padding-bottom: 39px;
+    border-bottom: 4px solid white;
+        
+}
+
+nav a:hover{
+    border-bottom: 4px solid black;
+        
+} 
+
+.icons-block {
+    display: flex;
+    justify-content: space-between;
+    width: 7.7vw;
+    margin-bottom: 30px;
+}
+
+.icons-block img{
+    display: inline-block;
+}
+.icons-block a{
+    text-decoration: none;
+}
+
+.main-content-block {
+    width: 70vw;
+    margin: 0 auto;
+    height: 90.8vh;
+    padding-top: 12vh;   
+    display: flex;
+    justify-content: space-around;
+    gap: 10vw;   
+}
+.info-content {
+    width: 30vw;
+}
+.info-content h1 {
+    color: white;
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 150px; 
+    padding-top: 7vh;
+}
+
+.info-content p {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+    display: inline-block;
+    padding-bottom: 4.7vh;
+    padding-top: 2vh;
+}
+.main-buttons {
+    display: flex;
+    gap: 3rem;
+}
+.info-content button{
+    width: 14vw;
+    /* height: 6.7vh; */
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 24px; 
+    border-radius: 6px;
+    background-color: black;
+}  
+.info-content button:hover{
+    background-color: #e8ccc0;
+    color: black;
+}
+
+.play-button img{
+    display: flex;
+    align-self: center;
+}
+.play-button {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 0.5vw;
+    align-items: center;
+    width: 12vw;
+    text-decoration: none;
+}
+
+.play-button h3{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 24px; 
+} 
+
+.play-button a:hover{
+    border-radius: 50%;
+    background-color: rgba(237, 157, 125, 0.919);
+    font-weight: 600;
+}
+.kettles_select {
+    width: 19vw;
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 8.3vh;   
+}
+.kettles_select div{
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kettles_select img{
+    display: inline;
+    text-align: center;
+}
+.kettles_select div:hover{
+    background-color: white;
+}
+.image-block {
+    position: relative;
+}
+
+.selected-color h1 {
+    color: #F1BBA4;
+    font-size: 175px;
+    font-weight: 800;
+    line-height: 150px;
+    letter-spacing: 4px;
+    /* transform: rotate(-90deg);  */
+    z-index: 0;
+}
+.selected-color {
+    position: absolute;
+    top: 26%;
+    right: -60%;
+    /* left: 38%; */
+    transform: rotate(-90deg);    
+}
+.image-block img{
+    position: relative;
+    z-index: 99;
+}
+.marks-of-page {
+    height: 6vh;
+    width: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1vh;
+    margin-top: 18%;
+}
+
+.circle {
+    min-width: 12px;
+    min-height: 12px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+}
+.circle div {   
+    min-width: 80%;
+    min-height: 80%;
+    margin: auto auto;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0;
+}
+.circle div:hover {   
+    opacity: 1;
+}

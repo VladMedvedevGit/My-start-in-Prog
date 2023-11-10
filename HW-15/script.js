@@ -46,7 +46,7 @@ const strings = ["apple", "banana", "orange"];
 
 let newStrings= [];
 for(let str of strings){
-    newStrings.push(str.toLocaleUpperCase())
+    newStrings.push(str.toUpperCase())
 }
 console.log(newStrings);
 
@@ -72,3 +72,4 @@ let newNumbers = numbers
                             return a - b;
                         })                        
 console.log(newNumbers);   
+
