@@ -67,7 +67,7 @@ header a:hover::after {
     margin-bottom: 20px;
 }
 .main-img{
-    object-fit: cover;;
+    object-fit: cover;
 }
 
 
