@@ -67,10 +67,7 @@ let butReset= document.querySelector('.reset');
 let variants = ['rock', 'shears', 'paper']
 
 function answerCompare(userVariant){
-   let randomVariant;
-    for(let i = 1; i<=3 ; i++){
-        randomVariant = variants[Math.floor(Math.random() * 3)];       
-    }
+    let randomVariant = variants[Math.floor(Math.random() * 3)];        
     let result;  
     if(userVariant=='rock' && randomVariant == 'shears'){
         result = "Congratulations! You won!"
