@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@500;600;700&family=Young+Serif&display=swap" rel="stylesheet">
+    <title>Home_work_19</title>
+    <style>
+        .wrapp{
+            font-family: Inter;
+            margin: 0 auto;
+            min-height: 167px;
+            max-width: 150px;
+            background-color: black;
+            border: 3px solid #353535;
+            border-radius: 6px;
+            font-weight: 700;
+        }
+        .timer-wrapp{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            height: 100px;
+            width: 100px;
+            margin: 10px auto;
+            border: 3px solid #FBA421;
+            border-radius: 50%;
+            color: white;
+            background-color: black;
+        }   
+        input {
+            display: inline-block;
+            width: 25px;
+            height: 22px;
+            background-color: black;
+            border: black;
+            color: white;
+            font-size: 18px; 
+            font-weight: 700;    
+        } 
+        button {
+            width: 53px;
+            height: 25px;
+            font-size: 16px;
+            font-family: Inter;
+            font-weight: 700;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .start {
+            background-color: #FBA421;
+            border: 1px solid black;
+            margin-left: 7px;
+        }
+        .reset {
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+            margin-right: 7px;
+            padding-left: 3px;
+            text-align: start;
+        }
+        .buttons{
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapp">
+        <div class="timer-wrapp">
+            <div class="input-wrapp">
+                <input id="minutes" type="text" ></input>:
+                <input id="seconds"  type="text"></input>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="start">Start</button>
+            <button class="reset" type="reset">Reset</button> 
+        </div>            
+    </div>
+
+
+     <script src="script.js"></script>
+</body>     
+</html>
