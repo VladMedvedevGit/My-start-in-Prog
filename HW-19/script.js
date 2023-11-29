@@ -12,7 +12,7 @@ startBtn.addEventListener('click', function(){
         if(counter > 10){
             counter -=1;          
             unit.value=counter; 
-        } else if(counter < 11 && counter > 0){
+        } else if(counter < 11 && counter){
             counter -=1;          
             unit.value= `0${counter}`; 
         } else if(+unit2.value >0 && counter == 0){
@@ -23,9 +23,12 @@ startBtn.addEventListener('click', function(){
             if(+unit2.value < 10 && +unit2.value >= 0){
                 unit2.value= `0${ unit2.value}`; 
             }
-        }
+        } else if(+unit2.value == 0 && counter == 0){
+            alert("Time's over"); 
+            clearInterval(secInterval);   
+        }    
     }; 
-    if (+userSeconds.value > 0 && +userSeconds.value <= 60){
+    if (+userSeconds.value > 0 && +userSeconds.value <= 60 || +userMinutes.value > 0){
         secInterval= setInterval(delay, 1000, userSeconds, userMinutes )
     };       
 });
