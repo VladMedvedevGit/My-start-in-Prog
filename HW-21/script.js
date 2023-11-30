@@ -3,10 +3,6 @@
 
 function checkMail(mail){
     let mailRegEx = /[0-9a-z_]+@[0-9a-z_]/;
-    // /^(([^<>()[\].,;:\s@"]+
-    //  (\.[^<>()[\].,;:\s@"]+)*)|(".+"))@
-    //   (([^<>()[\].,;:\s@"]+\.)+
-    //     [^<>()[\].,;:\s@"]{2,})$/iu
     let testMail  = mailRegEx.test(mail) ? true : false;
     return console.log(testMail);
 }
