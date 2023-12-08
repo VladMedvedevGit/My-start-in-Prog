@@ -2,11 +2,11 @@
 // -Створіть функцію, яка приймає рядок і повертає true, якщо він є коректною електронною поштою, і false в іншому випадку.
 
 function checkMail(mail){
-    let mailRegEx = /[0-9a-z_]+@[0-9a-z_]/;
+    let mailRegEx = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/iu;
     let testMail  = mailRegEx.test(mail) ? true : false;
     return console.log(testMail);
 }
-let userEmail = 'My Test@gmail.com'; 
+let userEmail = 'hello@gmail.come43454353656***//'; 
 checkMail(userEmail);
 
 
@@ -22,8 +22,6 @@ let userPass = 'FFFFF1q';
 checPassword(userPass);
 
 // - Створіть функцію яка перевіряє чи дата в такому форматі 21-12-1999. Якщо так вивести true якщо ні false
-
-
 
 function checkDate(date){
     let dateRegEx = /^\d{1,2}\-\d{1,2}\-\d{4}$/;
